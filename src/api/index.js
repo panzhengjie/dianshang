@@ -1,0 +1,12 @@
+/*
+包含n个接口请求函数的模块
+函数的返回值: promise对象
+ */
+import ajax from './ajax'
+export const reqgetNewsList = () => ajax('/getNewsList')
+export const reqlogin = () => ajax('/login')
+export const reqgetPrice = () => ajax('/getPrice')
+export const reqcreateOrder = () => ajax('/createOrder')
+export const reqgetOrderList = () => ajax('/getOrderList')
+
+
